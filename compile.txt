@@ -1,0 +1,1 @@
+gcc -msse4.1 -DCLS=$(getconf LEVEL1_DCACHE_LINESIZE) -g -O3 mydgemm_3.c -o mydgemm_3
